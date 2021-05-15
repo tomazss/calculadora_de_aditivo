@@ -19,7 +19,7 @@
          
      }else{
         res.innerHTML = ''
-        res.innerHTML += ` <p> ERRO quantidade de litros informada  é maior é maior que a capacidae do tanque</p> `
+        res.innerHTML += ` <p> ERRO quantidade de litros informada  é maior  que a capacidade do tanque</p> `
      }
      
 
