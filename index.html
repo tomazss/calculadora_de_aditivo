@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Aditivo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
+    <!-- Fontawesome CSS -->
+    <script src="https://kit.fontawesome.com/8bbf0eaf0d.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font: 16px Arial, Helvetica, sans-serif;
+            background-color: #5c881a;
+        }
+        #tanque{
+            padding: 20px;
+            margin: 2px;
+            
+        }
+        h2{
+            color :#fff ;
+        }
+        input{
+            text-align: center;
+            
+        }
+        #res{
+            
+            background-color: #fff;
+            margin: 20px;
+            padding: 40px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header >
+        <h2 class="text-justify text-center mt-3">calculadora de aditivo</h2>
+    </header>
+    <section>
+
+        <div class="input-group  " id="tanque">
+            <div class="input-group justify-content-center mt-5 ">
+                <span class="fas fa-car display-4 text-warning"></span>
+                <input class="form-control form-control-lg" type="number" name="tnum" id="tnum" placeholder="Capacidade  do tanque">
+            </div>
+            <div class="input-group justify-content-center mt-5">
+                <span class="fas fa-air-freshener display-4 text-warning"></span>
+                <input class="form-control form-control-lg" type="number" name="anum" id="anum" placeholder="Aditivo para tanque cheio ">
+            </div>
+            <div class="input-group justify-content-center mt-5">
+                <span class="fas fa-gas-pump display-4 text-warning"></span>
+                <input class="form-control form-control-lg" type="number" name="qnum" id="qnum" placeholder="Quantidade abastecida">
+            </div>
+
+        </div>
+        <div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center mt-5">
+					<button type="button" class="btn btn-success btn-lg" onclick="calcular()">Calcular</button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="res" class="text-info">
+
+    </div>
+
+    </section>
+    <footer>
+        <p>&copy; tomaz s.sampaio</p>
+        
+        </footer>
+        <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+   
+</body>
+
+</html>
